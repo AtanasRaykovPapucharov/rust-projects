@@ -1,0 +1,18 @@
+rustc main.rs
+.\main.exe
+
+//-------------------------
+
+cargo new hello_world
+cd ./hello_world
+
+//Compiling hello_world v0.1.0 (file:///path/to/package/hello_world)
+
+cargo build        
+./target/debug/hello_world
+
+cargo run
+
+//-------------------------
+cargo build  
+cargo update
